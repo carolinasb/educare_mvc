@@ -1,0 +1,76 @@
+
+body{
+	background:rgba(220,20,60,.7);
+}
+
+.header{
+	height:150px;
+}
+
+#logo{
+	position:absolute;
+	 padding:2px;
+	 margin: 5px;
+	 margin-top: 20px;
+	width:100px;
+	height:100px;
+}
+
+.header h2,p{
+	color:white;
+	text-align:center;
+	padding:15px;
+	margin:-15px;
+	font-family:verdana;
+}
+
+
+label{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input{
+    display:block;
+    margin-bottom: 15px;
+    padding: 5px 1%;
+ 
+}
+
+#simulado{
+    margin-left:20%;
+}
+#texto{
+    margin-left: 20%;
+}
+#questao{
+    float:right;
+    margin-top: -43%;
+    margin-right: 100px;
+}
+
+input.botao{
+    width: auto;
+    margin-left: 50%;
+    border-radius:10px;
+    border-color:black;
+    background: white;
+}
+input.botao:hover{
+    background: pink;
+}
+
+/* Colunas e grids:*/ 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
